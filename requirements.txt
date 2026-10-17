@@ -1,0 +1,21 @@
+# Core LangChain and LangGraph
+langchain>=1.4.0
+langchain-core>=1.6.0
+langchain-groq>=1.1.0
+langchain-tavily>=0.2.0
+langgraph>=1.2.0
+langgraph-checkpoint>=4.3.0
+langgraph-checkpoint-postgres>=3.2.0
+
+# Database
+psycopg>=3.3.0
+psycopg-binary>=3.3.0
+
+# Environment variables
+python-dotenv>=1.0.0
+
+# Tavily
+tavily-python>=0.8.0
+
+# Common dependencies
+pydantic>=2.0.0

@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "travel-agent"
+version = "0.1.0"
+description = "A LangGraph-based travel planning agent"
+requires-python = ">=3.8"
+dependencies = [
+    "langchain>=1.4.0",
+    "langchain-core>=1.6.0",
+    "langchain-groq>=1.1.0",
+    "langchain-tavily>=0.2.0",
+    "langgraph>=1.2.0",
+    "langgraph-checkpoint>=4.3.0",
+    "langgraph-checkpoint-postgres>=3.2.0",
+    "psycopg>=3.3.0",
+    "psycopg-binary>=3.3.0",
+    "python-dotenv>=1.0.0",
+    "tavily-python>=0.8.0",
+    "pydantic>=2.0.0",
+]
+
+
